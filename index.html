@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arcade Corner — free browser games</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕹️</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a class="brand" href="index.html">ARCADE CORNER</a>
+  <nav>
+    <a href="#games">Games</a>
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+  </nav>
+</div>
+
+<section class="hero">
+  <h1>Free games.<br>No download.<br>Just play.</h1>
+  <p>A small collection of browser games built for fun. Pick one below and press start.</p>
+</section>
+
+<div class="wrap" id="games">
+  <div class="grid" id="grid">
+    <!-- Cards are generated automatically from games.js — don't edit here. -->
+  </div>
+</div>
+
+<footer>Built with HTML, CSS &amp; JavaScript · hosted on GitHub Pages</footer>
+
+<script src="games.js"></script>
+<script src="render-games.js"></script>
+</body>
+</html>

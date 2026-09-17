@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snake — Arcade Corner</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐍</text></svg>">
+<link rel="stylesheet" href="../../style.css">
+<style>
+  #board { background:#12101c; border-radius:4px; display:block; touch-action:none; }
+</style>
+</head>
+<body class="game-page">
+
+<div class="topbar">
+  <a class="brand" href="../../index.html">ARCADE CORNER</a>
+  <nav><a href="../../index.html">All games</a></nav>
+</div>
+
+<main>
+  <h1>Snake</h1>
+  <p class="sub">Arrow keys or WASD to move. Eat the dots, don't hit yourself or the wall.</p>
+
+  <div class="stage">
+    <div class="hud">Score: <span id="score">0</span> &nbsp; Best: <span id="best">0</span></div>
+    <canvas id="board" width="360" height="360"></canvas>
+    <br>
+    <button class="control" id="restart">Restart</button>
+  </div>
+
+  <a class="back-link" href="../../index.html">&larr; Back to all games</a>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
