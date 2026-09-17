@@ -18,7 +18,7 @@ const GAMES = [
     title: "Eaglercraft",
     description: "Eaglercraft V.1.1",
     color: "#ff4f81",
-    emoji: "🧠",
+    logo: "assets/eaglercraft/image.png",
     folder: "games/eaglercraft/index.html"
   }
 ];

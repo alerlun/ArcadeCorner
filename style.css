@@ -243,3 +243,9 @@ footer {
   font-size: 0.85rem;
   border-top: 3px solid var(--line);
 }
+
+.card .screen .game-logo {
+  width: 55%;
+  height: 55%;
+  object-fit: contain;
+}
