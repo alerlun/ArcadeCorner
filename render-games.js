@@ -39,7 +39,7 @@ GAMES.forEach(game => {
     gameWindow.document.body.style.overflow = 'hidden';
 
     const frame = gameWindow.document.createElement('iframe');
-    frame.src = game.folder;
+    frame.src = new URL(game.folder, window.location.href).href;
     frame.title = game.title;
     frame.style.cssText = 'display:block;width:100vw;height:100vh;border:0;';
     gameWindow.document.body.appendChild(frame);
