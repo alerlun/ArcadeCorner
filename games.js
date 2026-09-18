@@ -12,6 +12,15 @@ const GAMES = [
     color: "#35e2c2",
     logo: "assets/idleminer/image.png",
     folder: "games/idleminer/index.html"
+  },  
+  
+  {
+    id: "monkeymart",
+    title: "Monkey Mart",
+    description: "Own a store.",
+    color: "#35e2c2",
+    logo: "assets/monkeymart/image.png",
+    folder: "games/monkeymart/index.html"
   },
   {
     id: "eaglercraft",
